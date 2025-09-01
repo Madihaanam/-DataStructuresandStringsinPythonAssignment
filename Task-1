@@ -1,0 +1,8 @@
+student_marks={'alice':85,'aniya':90,'riyan':98,'anam':95}
+name=input("Enter student name:")
+marks = student_marks.get(name)
+
+if marks is not None:
+    print(f"{name}'s marks: {marks}")
+else:
+    print("Student not found.")
